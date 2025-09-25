@@ -24,6 +24,13 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Tyuiu.BudykovaMM.Sprint1.Task0.V0.Lib\Tyuiu.BudykovaMM.Sprint1.Task0.V30.Lib.csproj" />
+    <ProjectReference Include="..\Tyuiu.BudykovaMM.Sprint1.Task0.V30.Lib\Tyuiu.BudykovaMM.Sprint1.Task0.V30.Lib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="tyuiu.cources.programming.interfaces">
+      <HintPath>..\tyuiu.cources.programming.interfaces.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
   <ItemGroup>
