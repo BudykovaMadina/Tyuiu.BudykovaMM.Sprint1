@@ -5,7 +5,7 @@ namespace Tyuiu.BudykovaMM.Sprint1.Task2.V9.Lib
     {
         public double CalculateVolumeCircle(int r)
         {
-            double volume = (4.0 / 3.0) * 3.14 * r * r * r;
+            double volume = (4.0 / 3.0) * Math.PI * r * r * r;
             return Math.Round(volume, 3);
         }
     }

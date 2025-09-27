@@ -10,7 +10,7 @@ namespace Tyuiu.BudykovaMM.Sprint1.Task2.V9.Test
             DataService ds = new DataService();
             int r = 3;
             var res = ds.CalculateVolumeCircle(r);
-            Assert.AreEqual(113.040, res);
+            Assert.AreEqual(113.097, res);
         }
     }
 }
